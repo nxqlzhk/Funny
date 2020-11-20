@@ -60,13 +60,9 @@
             <img src="images/big.jpg" width="800" alt="" />
         </div>
     </div>
+
+    <script src="js/common.js"></script>
     <script>
-
-        // 封装获取元素ID
-        function $(id) {
-            return document.getElementById(id);
-        }
-
         // 获取鼠标在页面的位置，处理浏览器兼容性
         function getPage(e) {
             let pageX = e.pageX || e.clientX + getScroll().scrollLeft;

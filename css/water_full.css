@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.itemBox {
+    width: 1050px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 4px;
+    position: absolute;
+}

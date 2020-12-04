@@ -32,3 +32,22 @@ function setInnerText(element, content) {
         element.textContent = content;
     }
 }
+
+let endDate = new Date('2021-01-01 0:0:0');
+let spanDay = $('day');
+let spanHour = $('hour');
+let spanMinute = $('minute');
+let spanSecond = $('second');
+setInterval(countdown, 1000);
+// 倒计时
+countdown();
+
+function countdown() {
+    let startDate = new Date();
+    //计算两个日期差
+    let interval = getInterval(startDate, endDate);
+    setInnerText(spanDay, interval.day);
+    setInnerText(spanHour, interval.hour);
+    setInnerText(spanMinute, interval.minute);
+    setInnerText(spanSecond, interval.second);
+}

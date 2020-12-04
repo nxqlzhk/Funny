@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#view {
+    width: 320px;
+    height: 568px;
+    background: url('../images/bg.png');
+    margin: 0 auto;
+}
+
+#fly_me {
+    width: 34px;
+    height: 24px;
+    position: absolute;
+}

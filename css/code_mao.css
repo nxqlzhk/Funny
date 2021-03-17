@@ -4,8 +4,12 @@ a {
     height: 100px;
     margin: 50px;
     line-height: 100px;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     color: #000;
     text-decoration: none;
+}
+a:hover {
+    border-radius: 20px;
+    background: linear-gradient(to bottom, #FEAC5E, #C779D0, #4BC0C8);
 }
